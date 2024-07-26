@@ -7,8 +7,11 @@
 gpt2的dataset需要去 [released a dataset](https://github.com/openai/gpt-2-output-dataset) 下载 data1 data2 data3 data4.
 
 python download_dataset.py 117M
+
 python download_dataset.py 345M
+
 python download_dataset.py 762M
+
 python download_dataset.py 1542
 
 
@@ -18,8 +21,11 @@ python download_dataset.py 1542
 GPT-2模型文件. 查看[model card](./model_card.md).运行
 
 python download_model.py 124M
+
 python download_model.py 345M
+
 python download_model.py 774M
+
 python download_model.py 1558M
 
 ##Run
