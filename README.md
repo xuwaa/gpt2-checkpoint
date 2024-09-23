@@ -21,6 +21,7 @@ python download_dataset.py 1542
 
 GPT-2 model file. View [model card](./model_card.md). operation
 
+
 python download_model.py 124M
 
 python download_model.py 345M
@@ -33,10 +34,12 @@ python download_model.py 1558M
 
 Observe the operation results of all layers in the model network. 
 
+
 python src/train.py --dataset data4 --model_name 1558M --models_dir models --part all
 
 
 Observe the results of running some of the model's network layers. 
+
 
 python src/train.py --dataset data4 --model_name 1558M --models_dir models --part part
 
@@ -50,4 +53,5 @@ To compare the differences between two restarts at a specific point in time, you
 The project is set to run for 3 hours.
 
 We complete using local memory to store checkpoints by running the move.py script.
+
 python move.py
